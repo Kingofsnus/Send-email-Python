@@ -3,21 +3,21 @@ How to send email using python
 import smtplib
 
 #Who take u mail
-S_reciver = ''
+    S_reciver = ''
 #You gmail data
-R_sender = ''
-password = ''
+    R_sender = ''
+    password = ''
 #Title
-subject = ''
+    subject = ''
 #Text
-body = ''
+    body = ''
 
 #Text 
-message = f'''From: {R_sender}
-To: {S_reciver}
-Subject: {subject}\n
-{body}
-'''
+    message = f'''From: {R_sender}
+    To: {S_reciver}
+    Subject: {subject}\n
+    {body}
+    '''
 
 #send
 try:
